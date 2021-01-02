@@ -18,13 +18,13 @@
 	<script defer src="/assets/fontawesome/js/all.min.js"></script>
 
 	<!-- Theme CSS -->
-	<link id="theme-style" rel="stylesheet" href="/assets/css/theme-7.css">
+	<link id="theme-style" rel="stylesheet" href="/assets/css/theme-4.css">
 </head>
 
 <body>
 
 	<header class="header text-center">
-		<h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Robert Bickers</a></h1>
+		<h1 class="blog-name pt-lg-4 mb-0"><a href="/">Robert Bickers</a></h1>
 
 		<nav class="navbar navbar-expand-lg navbar-dark">
 
@@ -37,8 +37,7 @@
 				<div class="profile-section pt-3 pt-lg-0">
 					<img class="profile-image mb-3 rounded-circle mx-auto" src="/assets/images/profile.png" alt="image">
 
-					<div class="bio mb-3">Hi, my name is Robert Bickers. I'm a software developer working in Cambridge,
-						UK. Trying to work smart, and live a good life.
+					<div class="bio mb-3">{{ site.self-introduction }}
 						<br />
 						<a href="/about.html">Find out more about me</a>
 					</div>
@@ -58,10 +57,6 @@
 					<li class="nav-item active">
 						<a class="nav-link" href="/index.html"><i class="fas fa-home fa-fw mr-2"></i>Blog Home <span
 								class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="/blog-post.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Blog
-							Post</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="/about.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
