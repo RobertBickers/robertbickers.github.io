@@ -10,7 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="{{page.description}}">
 	<meta name="author" content="Robert Bickers">
-	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="shortcut icon" href="/favicon.ico">
 
 	{% include meta.html %}
 
@@ -36,31 +36,48 @@
 			<div id="navigation" class="collapse navbar-collapse flex-column">
 				<div class="profile-section pt-3 pt-lg-0">
 					<img class="profile-image mb-3 rounded-circle mx-auto" src="/assets/images/profile.png" alt="image">
-
 					<div class="bio mb-3">{{ site.self-introduction }}
 						<br />
 						<a href="/about">Find out more about me</a>
 					</div>
-					<!--//bio-->
-					<ul class="social-list list-inline py-3 mx-auto">
-						<li class="list-inline-item"><a target="_blank" href="https://www.twitter.com/robertbickers"><i class="fab fa-twitter fa-fw"></i></a></li>
-						<li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/robertbickers/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-						<li class="list-inline-item"><a target="_blank" href="https://github.com/RobertBickers"><i class="fab fa-github-alt fa-fw"></i></a></li>
-					</ul>
+				
 					<!--//social-list-->
+					<hr>	
+					<ul class="navbar-nav flex-column text-left">
+						{% for category in site.categories %}
+						<li class="nav-item active">
+							<a class="nav-link" href="/"><i class="fas fa-home fa-fw mr-2"></i>{{ category[0] }}</a>
+						</li>
+						{% endfor%}
+					</ul>
 					<hr>
+
+						<!--//bio-->
+						<ul class="social-list list-inline py-3 mx-auto">
+							<li class="list-inline-item"><a target="_blank" href="https://www.twitter.com/robertbickers"><i
+										class="fab fa-twitter fa-fw"></i></a></li>
+							<li class="list-inline-item"><a target="_blank"
+									href="https://www.linkedin.com/in/robertbickers/"><i
+										class="fab fa-linkedin-in fa-fw"></i></a></li>
+							<li class="list-inline-item"><a target="_blank" href="https://github.com/RobertBickers"><i
+										class="fab fa-github-alt fa-fw"></i></a></li>
+						</ul>
 				</div>
 				<!--//profile-section-->
+				<div>
+				</div>
 
 				<ul class="navbar-nav flex-column text-left">
 					<li class="nav-item active">
-						<a class="nav-link" href="/"><i class="fas fa-home fa-fw mr-2"></i>Blog Home <span
-								class="sr-only">(current)</span></a>
+						<a class="nav-link" href="/"><i class="fas fa-home fa-fw mr-2"></i>Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/about"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
+						<a class="nav-link" href="/about"><i class="fas fa-user fa-fw mr-2"></i>About the author</a>
 					</li>
 				</ul>
+
+			
+
 			</div>
 		</nav>
 	</header>

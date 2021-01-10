@@ -1,7 +1,8 @@
 ---
 layout: post
-title: You're up and running!
+title: My home working environment
 published: true
+tags: "working from home"
 ---
 
 ## In this blog I'll be giving a quick summary that shows how you can quickly get started using Jekyll.

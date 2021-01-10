@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: Xamarin Forms - Managed loading page
 published: true
 ---
 

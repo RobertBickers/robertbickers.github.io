@@ -1,7 +1,8 @@
 ---
 layout: post
-title: You're up and running!
+title: My top 10 tips for working at home
 published: true
+tags: "working from home"
 ---
 
 ## In this blog I'll be giving a quick summary that shows how you can quickly get started using Jekyll.
@@ -20,3 +21,4 @@ the quickest way to set up a Jekyll powered blog;
 - how to import your content from WordPress, use your own domain name, and blog in your favorite editor;
 - how to theme in Jekyll, with Liquid templating examples;
 - a couple of Jekyll 2.0’s new features, including Sass and CoffeeScript support and collections.
+jekyll 
