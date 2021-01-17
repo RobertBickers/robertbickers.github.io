@@ -10,9 +10,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="{{page.description}}">
 	<meta name="author" content="Robert Bickers">
-	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="shortcut icon" href="/favicon.ico">
 
 	{% include meta.html %}
+
+	<script data-ad-client="ca-pub-0474548686720487" async
+		src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 	<!-- FontAwesome JS-->
 	<script defer src="/assets/fontawesome/js/all.min.js"></script>
@@ -24,7 +27,7 @@
 <body>
 
 	<header class="header text-center">
-		<h1 class="blog-name pt-lg-4 mb-0"><a href="/">Robert Bickers</a></h1>
+		<h1 class="blog-name pt-lg-4 mb-0"><a href="/">{{ site.name }}</a></h1>
 
 		<nav class="navbar navbar-expand-lg navbar-dark">
 
@@ -36,7 +39,6 @@
 			<div id="navigation" class="collapse navbar-collapse flex-column">
 				<div class="profile-section pt-3 pt-lg-0">
 					<img class="profile-image mb-3 rounded-circle mx-auto" src="/assets/images/profile.png" alt="image">
-
 					<div class="bio mb-3">{{ site.self-introduction }}
 						<br />
 						<a href="/about">Find out more about me</a>
@@ -57,24 +59,16 @@
 
 					<!--//bio-->
 					<ul class="social-list list-inline py-3 mx-auto">
-						<li class="list-inline-item"><a target="_blank" href="https://www.twitter.com/robertbickers"><i class="fab fa-twitter fa-fw"></i></a></li>
-						<li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/robertbickers/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-						<li class="list-inline-item"><a target="_blank" href="https://github.com/RobertBickers"><i class="fab fa-github-alt fa-fw"></i></a></li>
+						<li class="list-inline-item"><a target="_blank" href="https://www.twitter.com/robertbickers"><i
+									class="fab fa-twitter fa-fw"></i></a></li>
+						<li class="list-inline-item"><a target="_blank"
+								href="https://www.linkedin.com/in/robertbickers/"><i
+									class="fab fa-linkedin-in fa-fw"></i></a></li>
+						<li class="list-inline-item"><a target="_blank" href="https://github.com/RobertBickers"><i
+									class="fab fa-github-alt fa-fw"></i></a></li>
 					</ul>
-					<!--//social-list-->
-					<hr>
 				</div>
 				<!--//profile-section-->
-
-				<ul class="navbar-nav flex-column text-left">
-					<li class="nav-item active">
-						<a class="nav-link" href="/"><i class="fas fa-home fa-fw mr-2"></i>Blog Home <span
-								class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="/about"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
-					</li>
-				</ul>
 			</div>
 		</nav>
 	</header>

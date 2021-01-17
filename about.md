@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I'm a software developer living and working in Cambridge in the UK with over 10 years experience writing websites, apps, and desktops applications using .NET. I'm a productive work enthusiast, which means I'm lazy, but still need to get things done. 
 
 ### Contact me
 
-[email@domain.com](mailto:bickers.robert@gmail.com)
+[bickers.robert@gmail.com](mailto:bickers.robert@gmail.com)
