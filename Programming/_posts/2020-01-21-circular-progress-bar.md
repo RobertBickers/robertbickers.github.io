@@ -25,12 +25,12 @@ The following properties have been exposed, but you can of course add more.
 - Progress
 
 
-## Create a new ContentView
+### Create a new ContentView
 
 I've called it, `RadialProgressIndicator`. There isn't any Xaml required, so you can create a code only ContentView. We'll come back to this file later to fill it in
 
 
-## Place the new control on the page
+### Place the new control on the page
 
 Reference the namespace within the page that it will be used, by including this at the top of the xml namespace declaration:
 
@@ -48,14 +48,14 @@ You'll need to update these to meet the correct placement within your own app. F
 		ProgressColour="DarkBlue"/>
         
 
-## Include the SkiaSharp.Forms NuGet Package
+### Include the SkiaSharp.Forms NuGet Package
 
 Install the `SkiaSharp.Views.Forms` NuGet package
 
 [See SkiaSharp.Views.Forms in NuGet Gallery](https://www.nuget.org/packages/SkiaSharp.Views.Forms/)
 
 
-## Fill in the control
+### Fill in the control
 
 	using System;
 	using SkiaSharp;
