@@ -41,6 +41,20 @@
 						<br />
 						<a href="/about">Find out more about me</a>
 					</div>
+
+					<!--//social-list-->
+					<hr>
+					<ul class="navbar-nav flex-column text-left">
+						{% for category in site.categories %}
+						<li class="nav-item">
+							<center>
+								<a class="nav-link" href="/">{{ category[0] }}</a>
+							</center>
+						</li>
+						{% endfor%}
+					</ul>
+					<hr>
+
 					<!--//bio-->
 					<ul class="social-list list-inline py-3 mx-auto">
 						<li class="list-inline-item"><a target="_blank" href="https://www.twitter.com/robertbickers"><i class="fab fa-twitter fa-fw"></i></a></li>
