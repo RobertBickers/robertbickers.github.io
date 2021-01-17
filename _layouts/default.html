@@ -48,8 +48,10 @@
 					<hr>
 					<ul class="navbar-nav flex-column text-left">
 						{% for category in site.categories %}
-						<li class="nav-item active">
-							<a class="nav-link" href="/"><i class="fas fa-home fa-fw mr-2"></i>{{ category[0] }}</a>
+						<li class="nav-item">
+							<center>
+								<a class="nav-link" href="/"><i class="fas fa-home fa-fw mr-2"></i>{{ category[0] }}</a>
+							</center>
 						</li>
 						{% endfor%}
 					</ul>
