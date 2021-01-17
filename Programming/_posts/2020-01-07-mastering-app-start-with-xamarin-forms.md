@@ -1,22 +1,13 @@
 ---
 layout: post
-title: Xamarin Forms - Managed loading page
-published: true
+title: Xamarin Forms - loading your app
+published: true,
+thumb: "assets/images/blog/blog-post-thumb-1.jpg"
+
 ---
 
-## In this blog I'll be giving a quick summary that shows how you can quickly get started using Jekyll.
+Xamarin Forms is great, but getting an app up and running with some more advanced scenarios cna be frought with error. IoC, bespoke start-up scenarios, splash screens, all peices that need to be managed. Fortunately for you, I have the answer. This guide will show you the best way I've found to get an app started all while showing a custom loading screen while the app gets itself going. 
 
+### Setting up an IoC Container
 
-The simplicity of Jekyll’s theming layer and writing workflow is fantastic; however, setting up my website took a lot longer than expected.
-
-## What Is Jekyll?
-
-Jekyll is a website generator that’s designed for building minimal, static blogs to be hosted on GitHub Pages.
-
-In this article, we’ll walk through the following:
-
-the quickest way to set up a Jekyll powered blog;
-- how to avoid common problems with using Jekyll;
-- how to import your content from WordPress, use your own domain name, and blog in your favorite editor;
-- how to theme in Jekyll, with Liquid templating examples;
-- a couple of Jekyll 2.0’s new features, including Sass and CoffeeScript support and collections.
+While not strictly neccessary, a good IoC configuration will make your app more testable and more easy to configure in a component structure. With recent versions of Xamarin, we're able to levarage ServiceCollections to get everything set up, and then have these services auto resolved within your view models and dependent services. 

@@ -14,6 +14,9 @@
 
 	{% include meta.html %}
 
+	<script data-ad-client="ca-pub-0474548686720487" async
+		src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 	<!-- FontAwesome JS-->
 	<script defer src="/assets/fontawesome/js/all.min.js"></script>
 
@@ -24,7 +27,7 @@
 <body>
 
 	<header class="header text-center">
-		<h1 class="blog-name pt-lg-4 mb-0"><a href="/">Robert Bickers</a></h1>
+		<h1 class="blog-name pt-lg-4 mb-0"><a href="/">{{ site.name }}</a></h1>
 
 		<nav class="navbar navbar-expand-lg navbar-dark">
 
@@ -40,9 +43,9 @@
 						<br />
 						<a href="/about">Find out more about me</a>
 					</div>
-				
+
 					<!--//social-list-->
-					<hr>	
+					<hr>
 					<ul class="navbar-nav flex-column text-left">
 						{% for category in site.categories %}
 						<li class="nav-item active">
@@ -52,32 +55,18 @@
 					</ul>
 					<hr>
 
-						<!--//bio-->
-						<ul class="social-list list-inline py-3 mx-auto">
-							<li class="list-inline-item"><a target="_blank" href="https://www.twitter.com/robertbickers"><i
-										class="fab fa-twitter fa-fw"></i></a></li>
-							<li class="list-inline-item"><a target="_blank"
-									href="https://www.linkedin.com/in/robertbickers/"><i
-										class="fab fa-linkedin-in fa-fw"></i></a></li>
-							<li class="list-inline-item"><a target="_blank" href="https://github.com/RobertBickers"><i
-										class="fab fa-github-alt fa-fw"></i></a></li>
-						</ul>
+					<!--//bio-->
+					<ul class="social-list list-inline py-3 mx-auto">
+						<li class="list-inline-item"><a target="_blank" href="https://www.twitter.com/robertbickers"><i
+									class="fab fa-twitter fa-fw"></i></a></li>
+						<li class="list-inline-item"><a target="_blank"
+								href="https://www.linkedin.com/in/robertbickers/"><i
+									class="fab fa-linkedin-in fa-fw"></i></a></li>
+						<li class="list-inline-item"><a target="_blank" href="https://github.com/RobertBickers"><i
+									class="fab fa-github-alt fa-fw"></i></a></li>
+					</ul>
 				</div>
 				<!--//profile-section-->
-				<div>
-				</div>
-
-				<ul class="navbar-nav flex-column text-left">
-					<li class="nav-item active">
-						<a class="nav-link" href="/"><i class="fas fa-home fa-fw mr-2"></i>Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="/about"><i class="fas fa-user fa-fw mr-2"></i>About the author</a>
-					</li>
-				</ul>
-
-			
-
 			</div>
 		</nav>
 	</header>
