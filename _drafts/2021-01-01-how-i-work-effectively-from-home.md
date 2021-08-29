@@ -12,8 +12,3 @@ That said, working from home isn't easy. It requires discipline, hard work, and 
 
 In this post, I'm going to go through some of the ways I've changed my working habits, environment and even my house to keep working at my best.
 
-## Where you're working
-
-## How you're working
-
-## Ergonomics
