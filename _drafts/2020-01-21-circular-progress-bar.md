@@ -2,7 +2,7 @@
 layout: post
 title: Using Skia Sharp to make a circular progress bar
 published: true
-thumb: assets/images/blog/blog-post-thumb-7.jpg
+thumb: "assets/images/blog/blog-post-thumb-12.jpg"
 ---
 
 Create a simple rounded progress indicator using only SkiaSharp. No need for native renderers. 
@@ -100,7 +100,7 @@ Install the `SkiaSharp.Views.Forms` NuGet package
 		protected override void OnPaintSurface(SKPaintSurfaceEventArgs paintSurfaceEventArgs)
 		{
 			_circle.CalculateCenter(paintSurfaceEventArgs.Info, StrokeWidth);
-
+a
 			paintSurfaceEventArgs.Surface.Canvas.Clear();
 
 			DrawBackgroundCircle(paintSurfaceEventArgs.Surface.Canvas, _circle, StrokeWidth, BackgroundRingColour.ToSKColor());

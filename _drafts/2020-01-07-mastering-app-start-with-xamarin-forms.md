@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Xamarin Forms - loading your app
-published: true,
-thumb: "assets/images/blog/blog-post-thumb-1.jpg"
+published: true
+thumb: "assets/images/blog/blog-post-thumb-12.jpg"
 
 ---
 

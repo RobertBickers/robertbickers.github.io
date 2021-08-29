@@ -1,27 +1,39 @@
 ---
-layout: redirect
-redirect: /about
+layout: default
 ---
+
+<article class="about-section py-5">
+  <div class="container">
+    <h2 class="title mb-3">{{page.title}}</h2>
+    {{ content }}
+  </div>
+</article>
 
 <section class="blog-list px-3 py-5 p-md-5">
   <div class="container">
 
-    {% for post in site.posts %}
+    {% for post in site.categories %}
 
     <div class="item mb-5">
       <div class="media">
-        <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="{{ post.thumb }}" alt="image">
+        <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="{{ post.thumb }}"
+          alt="image">
         <div class="media-body">
           <h3 class="title mb-1"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h3>
           <div class="meta mb-1"><span class="date">Published 2 months ago</span><span class="time">10 min
-              read</span><span class="comment"><a href="#">23 comments</a></span></div>
+              read</span></div>
           <div class="intro">{{post.excerpt}} </div>
           <a class="more-link" href="{{ site.baseurl }}{{ post.url }}">Read more &rarr;</a>
         </div>
+        <!--//media-body-->
       </div>
+      <!--//media-->
     </div>
-
+    <!--//item-->
     {% endfor %}
+
+   
 
   </div>
 </section>
+
